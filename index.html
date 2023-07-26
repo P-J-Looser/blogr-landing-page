@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/design-for-future.css">
+  <link rel="stylesheet" href="styles/art-inf.css">
+  <link rel="stylesheet" href="styles/adv.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Josefin+Sans:wght@400;500;700&family=Kumbh+Sans:wght@400;700&family=Overpass:wght@300;400;500;600;700&family=Poppins:wght@600;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Josefin+Sans:wght@400;500;700&family=Kumbh+Sans:wght@400;700&family=Overpass:wght@300;400;500;600;700&family=Poppins:wght@600;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  
+  <title>Frontend Mentor | [Blogr]</title>
+
+</head>
+<body>
+
+  <section class="header">
+
+    <nav class="flex">
+
+      <div class="navbar flex">
+
+        <img src="images/logo.svg">
+
+        <div class="nav product flex">
+
+          <div class="details">
+            <p>Product</p>
+            <img src="images/icon-arrow-light.svg">
+          </div>
+
+          <div class="on-hover">
+            <p>Overview</p>
+            <p>Pricing</p>
+            <p>Marketplace</p>
+            <p>Features</p>
+            <p>Integrations</p>
+          </div>
+
+        </div>
+
+        <div class="nav company flex">
+
+          <div class="details">
+            <p>Company</p>
+            <img src="images/icon-arrow-light.svg">
+          </div>
+
+          <div class="on-hover">
+            <p>About</p>
+            <p>Team</p>
+            <p>Blog</p>
+            <p>Careers</p>
+          </div>
+
+        </div>
+
+        <div class="nav connect flex">
+
+          <div class="details">
+            <p>Connect</p>
+            <img src="images/icon-arrow-light.svg">
+          </div>
+
+          <div class="on-hover">
+            <p>Contact</p>
+            <p>Newsletter</p>
+            <p>LinkedIn</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="user">
+
+        <button class="log-in">Login</button>
+        <button class="sign-up isactive">Sign Up</button>
+
+      </div>
+
+    </nav>
+
+    <div class="intro flex">
+
+      <div class="title">
+
+          <p class="heading">A modern publishing platform</p>
+        
+          <p class="caption">Grow your audience and build your online brand</p>
+        
+      </div>
+
+      <div class="get-started ">
+        <button class="start isactive">Start for Free</button>
+        <button class="learn">Learn More</button>
+      </div>
+  
+    </div>
+
+  </section>
+
+  <section class="future">
+
+    <div class="heading">
+      <p>Designed for the future</p>
+    </div>
+
+    <img class="future-image" src="images/illustration-editor-desktop.svg">
+    
+    <div class="future-info">
+
+      <div class="box-1">
+
+        <p class="para-heading">Introducing an extensible editor</p>
+        <p class="para-content">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+        The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+        videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+        change the looks of a blog.</p>
+
+
+      </div>
+
+      <div class="box-2">
+
+        <p class="para-heading">Robust content management</p>
+        <p class="para-content">Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+        by adding customized categories, sections, format, or flow. With this functionality, you&#39;re in full control.</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="art">
+
+    <img class="art-image" src="images/illustration-phones.svg">
+
+    <div class="art-inner flex">
+
+      <img class="art-bg" src="images/bg-pattern-circles.svg">
+
+      <div class="art-info flex">
+
+        <div class="heading">
+          <p>State of the Art Infrastructure</p>
+            
+        </div>
+        <div class="content">
+          <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="desktop">
+
+    <img class="desktop-image" src="images/illustration-laptop-desktop.svg">
+
+    <div class="desktop-info ">
+
+      <div class="box-1">
+
+        <p class="para-heading">Free, open, simple</p>
+        <p class="para-content">Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+        features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+        and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn</p>
+
+      </div>
+
+      <div class="box-2">
+
+        <p class="para-heading">Powerful tooling</p>
+        <p class="para-content">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites..</p>
+
+      </div>
+
+    </div>
+  
+  </section>
+
+  <section class="footer">
+
+    <div class="logo">
+      <img src="images/logo.svg">
+    </div>
+
+    <div class="footer-details flex">
+
+        <div class="about-product">
+
+          <div class="details">
+            <p>Product</p>
+          </div>
+
+          <div class="sub-details">
+            <p>Overview</p>
+            <p>Pricing</p>
+            <p>Marketplace</p>
+            <p>Features</p>
+            <p>Integrations</p>
+          </div>
+
+        </div>
+
+        <div class="about-company">
+
+          <div class="details">
+            <p>Company</p>
+          </div>
+
+          <div class="sub-details">
+            <p>About</p>
+            <p>Team</p>
+            <p>Blog</p>
+            <p>Careers</p>
+          </div>
+
+        </div>
+
+        <div class="about-connect">
+
+          <div class="details">
+            <p>Connect</p>
+          </div>
+
+          <div class="sub-details">
+            <p>Contact</p>
+            <p>Newsletter</p>
+            <p>LinkedIn</p>
+          </div>
+
+        </div>
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <header>
+
+    <div class="header flex">
+
+      <nav class="flex">
+
+        <div class="navbar flex">
+
+          <div class="logo">
+
+            <img src="images/logo.svg">
+
+          </div>
+
+          <div class="navigation flex">
+
+            <div class="nav-product">
+
+              <div class="details flex">
+                <p>Product</p>
+                <img src="images/icon-arrow-light.svg">
+              </div>
+
+              <div class="on-hover">
+                <p>Overview</p>
+                <p>Pricing</p>
+                <p>Marketplace</p>
+                <p>Features</p>
+                <p>Integrations</p>
+              </div>
+
+            </div>
+
+            <div class="nav-company">
+
+              <div class="details flex">
+                <p>Company</p>
+                <img src="images/icon-arrow-light.svg">
+              </div>
+
+              <div class="on-hover">
+                <p>About</p>
+                <p>Team</p>
+                <p>Blog</p>
+                <p>Careers</p>
+              </div>
+
+            </div>
+
+            <div class="nav-connect">
+
+              <div class="details flex">
+                <p>Connect</p>
+                <img src="images/icon-arrow-light.svg">
+              </div>
+
+              <div class="on-hover">
+                <p>Contact</p>
+                <p>Newsletter</p>
+                <p>LinkedIn</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="credentials">
+
+          <div class="choose">
+            <button class="log-in">Login</button>
+            <button class="sign-up isactive">Sign Up</button>
+          </div>
+
+        </div>
+
+      </nav>
+  
+      <div class="info flex">
+
+        <div class="header-info">
+
+          <div class="header-info-heading">
+            <p>A modern publishing platform</p>
+          </div>
+          <div class="header-info-caption">
+            <p>Grow your audience and build your online brand</p>
+          </div>
+
+        </div>
+
+        <div class="get-started flex">
+            <button class="start isactive">Start for Free</button>
+            <button class="learn">Learn More</button>
+        </div>
+  
+      </div>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <div class="design-for-future flex">
+
+      <div class="design-heading">
+        <p>Designed for the future</p>
+      </div>
+
+      <div class="design-content flex">
+
+        <div class="design-info">
+
+          <div class="design-info-box">
+
+            <div class="design-info-data para-1">
+
+              <p class="para-heading">Introducing an extensible editor</p>
+              <p class="para-content">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+              change the looks of a blog.</p>
+
+            </div>
+
+            <div class="design-info-data para-2">
+
+              <p class="para-heading">Robust content management</p>
+              <p class="para-content">Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+              by adding customized categories, sections, format, or flow. With this functionality, you&#39;re in full control.</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="design-image">
+          <img src="images/illustration-editor-desktop.svg">
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="art-infrastruture">
+
+      <div class="art-main">
+
+        <div class="art-images">
+          <img src="images/illustration-phones.svg">
+        </div>
+
+        <div class="art-info">
+          <p class="para-heading">State of the Art Infrastructure</p>
+          <p class="para-content">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="adv">
+
+      <div class="adv-image">
+        <img src="images/illustration-laptop-desktop.svg">
+      </div>
+
+      <div class="adv-info">
+
+        <div class="adv-info-box">
+
+          <div class="adv-info-data para-1">
+
+            <p class="para-heading">Free, open, simple</p>
+            <p class="para-content">Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+            and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+
+          </div>
+
+          <div class="adv-info-data para-2">
+
+            <p class="para-heading">Powerful tooling</p>
+            <p class="para-content">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+            capable of producing even the most complicated sites..</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+
+    <div class="about">
+
+      <div class="about-logo">
+        <img src="images/logo.svg">
+      </div>
+
+      <div class="about-info">
+
+        <div class="about-product">
+
+          <div class="details">
+            <p>Product</p>
+          </div>
+
+          <div class="sub-details">
+            <p>Overview</p>
+            <p>Pricing</p>
+            <p>Marketplace</p>
+            <p>Features</p>
+            <p>Integrations</p>
+          </div>
+
+        </div>
+
+        <div class="about-company">
+
+          <div class="details">
+            <p>Company</p>
+          </div>
+
+          <div class="sub-details">
+            <p>About</p>
+            <p>Team</p>
+            <p>Blog</p>
+            <p>Careers</p>
+          </div>
+
+        </div>
+
+        <div class="about-connect">
+
+          <div class="details">
+            <p>Connect</p>
+          </div>
+
+          <div class="sub-details">
+            <p>Contact</p>
+            <p>Newsletter</p>
+            <p>LinkedIn</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+
+  </footer> -->
+
+  <script src="script/navbar.js"></script>
+
+</body>
+</html>

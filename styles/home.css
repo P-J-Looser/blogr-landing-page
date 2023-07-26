@@ -1,0 +1,54 @@
+:root {
+    --text-red : hsl(356, 100%, 66%);
+    --bg-light-red : hsl(355, 100%, 74%);
+    --headings-blue : hsl(208, 49%, 24%);
+    --text-white : hsl(0, 0%, 100%);
+    --footer-text-blue : hsl(240, 2%, 79%);
+    --bg-grayish-blue : hsl(207, 13%, 34%);
+    --bg-footer-dark-blue : hsl(240, 10%, 16%);
+    --bg-nav-light-red : hsl(13, 100%, 72%);
+    --bg-nav-red : hsl(353, 100%, 62%);
+    --bg-grad-gray-blue : hsl(237, 17%, 21%);
+    --bg-grad-dark-blue : hsl(237, 23%, 32%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: inherit;
+    color: inherit;
+    /* ubuntu - 300 , 400 ,500 ,700 */
+    
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-size: 16px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+}
+
+/* .on-hover {
+    display: none;
+} */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

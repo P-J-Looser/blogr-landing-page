@@ -1,0 +1,41 @@
+.desktop {
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'overpass'; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.desktop > .desktop-image {
+    position: absolute;
+    left: -17.5rem;
+}
+
+.desktop > .desktop-info {
+    width: 50%;
+    padding-left: 3rem;
+}
+
+.desktop-info > div > .para-heading {
+    color: var(--headings-blue);
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 1.5rem 0;
+}
+
+.desktop-info > div > .para-content {
+    font-size: 16px;
+    word-spacing: 2px;
+    line-height: 1.7rem;
+    color: gray;
+    width: 72%;
+}
+
+.desktop-info > .box-1 {
+    margin-bottom: 5rem;
+} 

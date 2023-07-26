@@ -1,0 +1,64 @@
+/* .design-for-future {
+    width: 100%;
+    flex-direction: column;
+}
+
+.design-for-future > .design-heading {
+    font-family: 'Overpass', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+ */
+
+
+ 
+ 
+ .future {
+    height: 120vh;
+    position: relative;
+    overflow-x: hidden;
+    margin-top: 4rem;
+    font-family: 'overpass';
+}
+
+.future > .heading {
+    color: var(--headings-blue);
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin: 5rem 0; 
+}
+
+.future > .future-image {
+    position: absolute;
+    top: 0;
+    right: -17rem;
+}
+
+.future-info {
+    margin: 6.5rem 10rem;
+}
+
+.future-info > div {
+    width: 50%;
+    margin-bottom: 4rem;
+}
+
+.future-info > div > .para-heading {
+    color: var(--headings-blue);
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 1.5rem 0;
+}
+
+.future-info > div > .para-content {
+    font-size: 17px;
+    word-spacing: 1px;
+    line-height: 1.8rem;
+    color: gray;
+    width: 92%;
+}

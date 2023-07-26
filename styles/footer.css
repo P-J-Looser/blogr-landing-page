@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    justify-content: flex-start;
+    background-color: var(--bg-footer-dark-blue);
+    color: white;
+    padding-top: 5rem;
+    border-radius: 0 7rem 0 0;
+}
+
+.footer > .logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.footer > .footer-details {
+    align-items: start;
+    font-family: 'overpass';
+}
+
+.footer > .footer-details > div{
+    margin-right: 13rem;
+}
+
+.footer-details > .about-product {
+    margin-left: 1rem;
+}
+
+.footer > .footer-details > div > .details {
+    opacity: 0.95;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.footer-details .sub-details {
+    line-height: 2rem;
+    opacity: 0.6;
+}

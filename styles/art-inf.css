@@ -1,0 +1,58 @@
+.art {
+    width: 100%;
+    height: 68vh;
+    position: relative;
+    
+}
+
+.art-image {
+    position: absolute;
+    top: -4.3rem;
+    left: 7rem;
+    z-index: 2;
+}
+
+.art-inner {
+    height: 53vh;
+    width: 100%;
+    position: relative;
+    margin-top: 3.4rem;
+    background: linear-gradient(to right, var(--bg-grad-gray-blue), var(--bg-grad-dark-blue));
+    border-radius: 0 7rem 0 7rem;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.art-inner > .art-bg {
+    position: absolute;
+    left: -14rem;
+    top: -32rem;
+}
+
+.art-inner > .art-info {
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    width: 51%;
+    margin-right: 1rem;
+}
+
+.art-inner > .art-info p {
+    color: white;
+}
+
+.art-inner > .art-info > .heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'overpass';
+    padding-bottom: 1.5rem;
+}
+
+.art-inner > .art-info > .content {
+    width: 75%;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    font-family: 'overpass';
+    opacity: 0.7;
+}
+
